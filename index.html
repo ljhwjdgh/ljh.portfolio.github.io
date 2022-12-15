@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+
+  </head>
+  <body>
+
+    <header id="anchor6">
+      <nav>
+        <div class="logo">
+          <img src="img/01_logo.png" alt="an insightful designer">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a onclick="fnMove('1')">Book Cover</a></li>
+            <li><a onclick="fnMove('2')">UI/UX</a></li>
+            <li><a onclick="fnMove('3')">Web</a></li>
+            <li><a onclick="fnMove('4')">Advertisement</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <!--키비주얼 부문-->
+      <div class="keyvisual">
+        <div class="keyvisual_wrap">
+          <div class="keyvisual_title" data-aos="flip-left" data-aos-duration="1500">
+            <img src="img/03_keyvisual_tit.png" alt="시간과 공간 그리고 마음이 움직이는 디자인을 찾다.">
+          </div>
+        </div>
+      </div>
+
+      <!--프로필 부문-->
+      <div class="profile">
+        <div class="profile_wrap">
+          <div class="profile_02" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_02_txt.png" alt="education"></div>
+          <div class="profile_03" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_03_txt.png" alt="contact"></div>
+          <div class="profile_04" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_04_txt.png" alt="skill"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 1-->
+      <div class="pf_1" id="anchor1">
+        <div class="pf_wrap">
+          <div class="pf_tit_1"><img src="" alt=""></div>
+          <div class="pf_img_1" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_1.png" alt="FAUCHON 북커버 디자인 목업"></div>
+          <div class="pf_txt_1"><img src="" alt=""></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 2-->
+      <div class="pf_2" id="anchor2">        
+        <div class="pf_wrap">
+          <div class="pf_tit_2"><img src="" alt=""></div>
+          <div class="pf_img_2" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_2.png" alt=""></div>
+          <div class="pf_txt_2"><img src="" alt=""></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 3-->
+      <div class="pf_3" id="anchor3">
+        <div class="pf_wrap">
+          <div class="pf_tit_3"><img src="" alt=""></div>
+          <div class="pf_img_3" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_3.png" alt=""></div>
+          <div class="pf_txt_3"><img src="" alt=""></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 4-->
+      <div class="pf_4" id="anchor4">
+        <div class="pf_wrap">
+          <div class="pf_tit_4"><img src="" alt=""></div>
+          <div class="pf_img_4" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_4.png" alt=""></div>
+          <div class="pf_txt_4"><img src="" alt=""></div>
+        </div>
+      </div>
+
+    
+
+    </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/06_footer_logo.png" alt="footer"></span>
+        <span class="footer_txt">Copyright 2020 Jeongho Lee. All right reserved.<br>e-Mail : bhh531@naver.com</span>
+      </div>
+    </footer>
+
+    <!--top button-->
+    <a onclick="fnMove('6')"><div class="top_bt"></div></a>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>

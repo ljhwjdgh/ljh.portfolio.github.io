@@ -1,0 +1,46 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #ffffff;}
+
+header{height: 7.2rem;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block;padding: 1.2rem 0rem 0.8rem 4.0rem;}
+header > nav > .menu{display: inline-block;padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #1D086A;padding: 1.3rem 2.3rem;border-bottom: 1px solid #6349BE;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .top{background-image: url('../img/m_i_04_keyvisual.png');height: 70.7rem;text-align: center; background-size: cover;}
+section > .top > img{padding-top: 20.5rem;}
+
+section > .profile{background-image: url('../img/m_i_05_pro_back.png');height:77rem; text-align: center;background-size: cover;}
+section > .profile > .pf_01{padding-top: 10.0rem;}
+section > .profile > .pf_02, .pf_03, .pf_04{margin-top: 3.7rem;}
+
+
+footer{background-color: #969696;text-align: center; height:100% ;}
+footer > img{padding-top: 2.2rem;}
+
+/*--서브01--*/
+section > .sub_01{background-image: url('../img/m_s01_02.png');text-align: center;  background-size: cover;}
+section > .sub_01 > img{padding-top: 5.0rem;}
+
+/*--서브02--*/
+section > .sub_02{background-image: url('../img/m_s02_02.png');text-align: center;background-size: cover;}
+section > .sub_02 > img{padding-top: 5.0rem;}
+
+/*--서브03--*/
+section > .sub_03{background-image: url('../img/m_s03_02.png');text-align: center;background-size: cover;}
+section > .sub_03 > img{padding-top: 5.0rem;}
+
+/*--서브04--*/
+section > .sub_04{background-image: url('../img/m_s04_02.png');text-align: center;background-size: cover;}
+section > .sub_04 > img{padding-top: 5.0rem;}
+
+
